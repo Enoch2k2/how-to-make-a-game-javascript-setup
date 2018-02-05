@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Enoch2k2/how-to-make-a-game-javascript-setup/issues"
   },
-  "homepage": "https://github.com/Enoch2k2/how-to-make-a-game-javascript-setup#readme"
+  "homepage": "https://github.com/Enoch2k2/how-to-make-a-game-javascript-setup#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {}
 }
