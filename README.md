@@ -48,6 +48,13 @@ This will add to our depencies in our `package.json`
 }
 ```
 
+### removing node_modules from our git commits
+We want to make sure our users have freshly installed dependencies, therefore we want to make sure our node_modules folders aren't added to our git commits. To do that inside our `.gitignore` file we can simply add:
+```
+node_modules
+```
+This will tell git that we would not like to add our node_modules when we make our commits.
+
 ### creating an express server
 Now that we have express.js installed, we need to create a server for our application to work on.
 
