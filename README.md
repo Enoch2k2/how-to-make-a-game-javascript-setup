@@ -245,7 +245,7 @@ var canvas, ctx, player;
 function setup(){
     canvas = document.querySelector('canvas');
     ctx = canvas.getContext('2d');
-    player = new Player(0, 0, 25, 25, 'red'); // creates a new player
+    player = new Player(WIDTH / 2, HEIGHT / 2, 25, 25, 'red'); // creates a new player and sets it in middle of canvas
 }
 ```
 Great! We now have a player in our game world. However we haven't yet drawn him to our canvas. Let's add two prototype functions to our player. We will add `draw` which will render the player to the canvas.
@@ -311,7 +311,7 @@ In our `setup()` function we will go ahead and add our player controls. So we ca
 function setup(){
     canvas = document.querySelector('canvas');
     ctx = canvas.getContext('2d');
-    player = new Player(0, 0, 25, 25, 'red'); // creates a new player
+    player = new Player(WIDTH / 2, HEIGHT / 2, 25, 25, 'red'); // creates a new player and sets it in middle of canvas
     playerControls(); // adds the player controls;
 }
 ```

@@ -16,7 +16,7 @@ window.addEventListener('load', function(){
 function setup(){
     canvas = document.querySelector('canvas');
     ctx = canvas.getContext('2d');
-    player = new Player(0, 0, 25, 25, 'red'); // creates a new player
+    player = new Player(WIDTH / 2, HEIGHT / 2, 25, 25, 'red'); // creates a new player
     playerControls(); // adds the player controls;
 }
 
